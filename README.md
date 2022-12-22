@@ -103,3 +103,54 @@ the applications that run on their systems.
     * KYC/B access Design:
       * On-Chain?
       * API?
+
+#### 22-12-2022
+
+#### Attendees
+
+- Alani Kuye
+- Scott Carruthers (scott@akash.network)
+- Adam Bozanich (adam@akash.network)
+- Andrew Mello (andrew.mello@akash.network)
+- Deval Patel (deval@praetorapp.com)
+- Jigar Patel (jigar@praetorapp.com)
+
+#### Notes
+
+ * Deval: Spoke with Kado
+   * KYC/B API: WIP - Q1 2023
+     * How could the provider integrate with this.
+     * More flexible provider bid engine order evaluation.
+   * Offload $AKT
+ * Deval: Non-KYC
+   * Lease Status api exposed to provider.
+   * Allow providers to view and choose for themselves.
+   * Potentially share offending (accounts, images) via block lists.
+   * define "remote probing" api: Deval Patel - management api
+     * hostnames for lease
+     * close a lease
+     * disallow tenant account, lease image
+   * andrew: static blocking
+     * awesome-akash apps only.
+       * how to identify.
+       * image-based filtering.
+     * port, image, tenant address, hostname allowlist.
+     * In-Cluster Security Scanning: TBD.
+
+#### Follow-Up
+
+* "Make this official" - Akash network community sig.
+  * Discord chat
+  * sig-providers: mission statement, members, etc...
+  * wg-content-moderation: mission statement, members, etc...
+    * Anil will help with this.
+* PRD for statict blocking (Moderation API).
+  * objective
+  * motivation
+  * use-case
+  * High-level implementation options.
+* Provider Management API
+  * Lease Status
+  * Close Lease
+  * Moderation API configured separately.
+  * Authentication?
