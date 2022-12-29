@@ -6,8 +6,6 @@ the applications that run on their systems.
 
 ## Contact
 
-* todo: discord group
-
 ## Projects
 
 ### Remote Probing
@@ -51,4 +49,6 @@ the applications that run on their systems.
 
 #### Attendees
 
-
+### 2022-12-21
+- [Meeting Recording](https://drive.google.com/drive/folders/1VUrr9svLW6pi-af50PubV2e1YxTTKwDK)
+- [Meeting Transcription](https://docs.google.com/document/d/1SeTVfcC4lmoRT5A2275wYaW7If3eGvsMQf_7HbZ7mPA/edit#heading=h.rd0fl6ccqzw3)
